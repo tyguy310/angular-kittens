@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('myApp.components.main', [])
+    .module('kittenApp.components.main', [])
     .controller('mainController', mainController);
 
   mainController.$inject = ['$scope'];

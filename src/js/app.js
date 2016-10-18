@@ -5,9 +5,11 @@
   'use strict';
 
   angular
-    .module('myApp', [
-      'myApp.config',
-      'myApp.components.main'
+    .module('kittenApp', [
+      'ngRoute',
+      'kittenApp.config',
+      'kittenApp.components.main',
+      'kittenApp.components.new'
     ]);
 
 })();
